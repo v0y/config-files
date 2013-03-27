@@ -16,3 +16,4 @@ parse_git_branch () {
 }
 
 PS1="\[$BOLD\]\u@\h:\w\[$RESET\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \"(\")\$(parse_git_branch)\$ "
+
