@@ -1,0 +1,18 @@
+# Sexy Bash Prompt, inspired by "Extravagant Zsh Prompt"
+# A big thanks to \amethyst on Freenode
+# 
+# add ". ~/.bash_prompt" to .bashrc
+
+if tput setaf 1 &> /dev/null; then
+	BOLD=$(tput bold)
+	RESET=$(tput sgr0)
+fi
+
+parse_git_dirty () {
+  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
+}
+parse_git_branch () {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty))/"
+}
+
+PS1="\[$BOLD\]\u@\h:\w\[$RESET\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \"(\")\$(parse_git_branch)\$ "
