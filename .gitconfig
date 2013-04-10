@@ -1,0 +1,12 @@
+[user]
+    name = Rafał Mirończyk
+    email = voyageur.pl@gmail.com
+
+[github]
+    user = v0y
+
+[color]
+    ui = auto
+
+[core]
+    excludesfile = ~/.gitfiles/global-ignore
