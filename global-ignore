@@ -4,4 +4,4 @@
 build
 *.pyc
 *~
-*.sqlite
+*.sqlite3
