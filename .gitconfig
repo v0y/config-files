@@ -10,3 +10,9 @@
 
 [core]
     excludesfile = ~/.gitfiles/global-ignore
+
+[alias]
+    rb = rebase -i
+    co = checkout
+    ci = commit
+
