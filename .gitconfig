@@ -12,7 +12,7 @@
     excludesfile = ~/.gitfiles/global-ignore
 
 [alias]
-    rb = rebase -i
+    rb = rebase -i master
     co = checkout
     ci = commit
 
