@@ -12,9 +12,16 @@
     excludesfile = ~/.gitfiles/global-ignore
 
 [alias]
-    rb = rebase -i master
+    rb = rebase -i --autosquash master
     co = checkout
     ci = commit
+    df = diff
+    ph = push
+    pl = pull
+    st = status
 
 [push]
+    default = current
+
+[pull]
     default = current
