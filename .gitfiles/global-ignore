@@ -3,5 +3,6 @@
 .settings
 build
 *.pyc
-*~
+*~*
 *.sqlite3
+*.autosave
