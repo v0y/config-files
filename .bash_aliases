@@ -11,6 +11,7 @@ alias krowa="apt-get moo"
 alias lg="ls | grep"
 alias g="git"
 alias v="vagrant"
+alias psgrep="ps -aux | grep"
 
 # virtualenvs
 alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/vagrant/bindweed/"
