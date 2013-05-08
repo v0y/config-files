@@ -19,6 +19,7 @@
     ph = push
     pl = pull
     st = status
+    hard = reset --hard
 
 [push]
     default = current
