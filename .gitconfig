@@ -13,6 +13,7 @@
 
 [alias]
     rb = rebase -i --autosquash master
+    rbi = rebase -i --autosquash
     co = checkout
     ci = commit
     df = diff
