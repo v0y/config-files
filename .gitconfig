@@ -12,8 +12,13 @@
     excludesfile = ~/.gitfiles/global-ignore
 
 [alias]
+    r = rebase
     rb = rebase -i --autosquash master
+    rbm = rebase master
     rbi = rebase -i --autosquash
+    rbc = rebase --continue
+    rba = rebase --abort
+    rbs = rebase --skip
     co = checkout
     ci = commit
     df = diff
@@ -25,5 +30,3 @@
 [push]
     default = current
 
-[pull]
-    default = current
