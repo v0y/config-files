@@ -26,6 +26,9 @@
     pl = pull
     st = status
     hard = reset --hard
+    sth = stash
+    sthl = stash list
+    stha = stash apply
 
 [push]
     default = current
