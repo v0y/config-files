@@ -12,23 +12,32 @@
     excludesfile = ~/.gitfiles/global-ignore
 
 [alias]
+    # rebase
     r = rebase
     rb = rebase -i --autosquash master
     rbm = rebase master
     rbi = rebase -i --autosquash
+    rbi = "!f() { git rebase -i --autosquash HEAD~$1; }; f"
     rbc = rebase --continue
     rba = rebase --abort
     rbs = rebase --skip
+
+    # misc
     co = checkout
     ci = commit
     df = diff
     ph = push
     pl = pull
     st = status
+    rl = reflog
     hard = reset --hard
+    hard = "!f() { git reset --hard HEAD@\\{$1\\}; }; f"
+
+    # stash
     sth = stash
     sthl = stash list
     stha = stash apply
+    stha = "!f() { git stash apply stash@\\{$1\\}; }; f"
 
 [push]
     default = current
