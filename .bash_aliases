@@ -13,6 +13,9 @@ alias g="git"
 alias v="vagrant"
 alias psgrep="ps -aux | grep"
 
+# fix vagrant after kernel update
+alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vboxdrv setup; vagrant up"
+
 # django
 alias runserver="python manage.py runserver"
 alias syncdb="python manage.py syncdb"
