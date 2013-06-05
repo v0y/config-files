@@ -14,10 +14,10 @@
 [alias]
     # rebase
     r = rebase
-    rb = rebase -i --autosquash master
-    rbm = rebase master
+    rbim = rebase -i --autosquash master
+    rbm = rebase -p master
     rbi = rebase -i --autosquash
-    rbi = "!f() { git rebase -i --autosquash HEAD~$1; }; f"
+    rbih = "!f() { git rebase -i --autosquash HEAD~$1; }; f"
     rbc = rebase --continue
     rba = rebase --abort
     rbs = rebase --skip
@@ -30,8 +30,11 @@
     pl = pull
     st = status
     rl = reflog
+
+    # reset
     hard = reset --hard
-    hard = "!f() { git reset --hard HEAD@\\{$1\\}; }; f"
+    hardh = "!f() { git reset --hard HEAD@\\{$1\\}; }; f"
+    hardr = "git reset --hard origin/$1 && git clean -f -d"
 
     # stash
     sth = stash
@@ -42,3 +45,5 @@
 [push]
     default = current
 
+[pull]
+    rebase = true
