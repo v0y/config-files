@@ -31,6 +31,9 @@
     st = status
     rl = reflog
     a = add
+    cp = cherry-pick
+    b = branch
+    f = fetch
 
     # reset
     hard = reset --hard
