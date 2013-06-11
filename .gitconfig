@@ -22,6 +22,12 @@
     rba = rebase --abort
     rbs = rebase --skip
 
+    # cherry-pick
+    cp = cherry-pick
+    cpa = cherry-pick --abort
+    cpq = cherry-pick --quit
+    cpc = cherry-pick -- continue
+
     # misc
     co = checkout
     ci = commit
@@ -31,7 +37,6 @@
     st = status
     rl = reflog
     a = add
-    cp = cherry-pick
     b = branch
     f = fetch
 
