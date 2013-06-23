@@ -4,20 +4,25 @@ alias bpy="bpython"
 alias ..="cd ../"
 alias ...="cd ../../"
 alias ....="cd ../../../"
+alias .....="cd ../../../../"
 alias lo="libreoffice"
 alias s="sudo"
 alias install="sudo apt-get install"
 alias krowa="apt-get moo"
 alias lg="ls | grep"
-alias g="git"
 alias v="vagrant"
 alias psgrep="ps -aux | grep"
+alias gkill="kill pgrep"
 alias alias_edit="vim ~/.bash_aliases"
+
+# usage: command; alert
+alias alert='notify-send -t 15000 -i /usr/share/icons/gnome/32x32/apps/gnome-terminal.png "[$?] $(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/;\s*alert$//'\'')"'
 
 # fix vagrant after kernel update
 alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vboxdrv setup; vagrant up"
 
 # git
+alias g="git"
 alias rbm-pro="python /home/voy/workspace/flowerbed/sync/sync.py"
 alias gitconf="vim ~/.gitconfig"
 alias gitconfig="gitconf"
