@@ -35,7 +35,6 @@
 
     # misc
     co = checkout
-    ci = commit
     df = diff
     ph = push
     pl = pull
@@ -69,6 +68,12 @@
     # log
     l = log
     lg = log --oneline --graph
+
+    # commit
+    ci = commit
+    cim = commit -m
+    cia = commit -a
+    ciam = commit -a -m
 
 [push]
     default = current
