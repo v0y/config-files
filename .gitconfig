@@ -66,6 +66,10 @@
     # accept pr
     accept-pr = apr
 
+    # log
+    l = log
+    lg = log --oneline --graph
+
 [push]
     default = current
 
