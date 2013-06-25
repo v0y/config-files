@@ -64,7 +64,7 @@
     bsr = bisect reset
 
     # accept pr
-    accept-pr = apr
+    apr = accept-pr
 
     # log
     l = log
