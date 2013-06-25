@@ -43,6 +43,7 @@
     a = add
     b = branch
     f = fetch
+    alias = git config --get-regexp alias
 
     # reset
     hard = reset --hard
