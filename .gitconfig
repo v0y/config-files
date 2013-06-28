@@ -36,8 +36,8 @@
     # misc
     co = checkout
     df = diff
-    ph = push
-    pl = pull
+    ph = push -u
+    pl = pull -u
     st = status
     rl = reflog
     a = add
