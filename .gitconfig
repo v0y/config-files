@@ -75,6 +75,8 @@
     cim = commit -m
     cia = commit -a
     ciam = commit -a -m
+    amend = git commit --amend
+    aamend = git commit -a --amend
 
 [push]
     default = current
