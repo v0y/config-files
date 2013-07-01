@@ -40,6 +40,7 @@ alias startapp="python manage.py startapp"
 alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/vagrant/bindweed/"
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/Celosia"
 alias ling="source ~/.virtualenvs/ling/bin/activate && cd ~/workspace/ling"
+alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/vagrant/castanea"
 
 # fabric
 alias f="fab"
