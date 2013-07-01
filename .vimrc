@@ -124,7 +124,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 set nu
-colorscheme desert 
+colorscheme solarized 
 set background=dark
 
 " Set extra options when running in GUI mode
