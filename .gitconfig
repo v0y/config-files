@@ -45,7 +45,7 @@
     a = add
     b = branch
     f = fetch
-    alias = git config --get-regexp alias
+    alias = config --get-regexp alias
 
     # reset
     hard = reset --hard
@@ -77,8 +77,8 @@
     cim = commit -m
     cia = commit -a
     ciam = commit -a -m
-    amend = git commit --amend
-    aamend = git commit -a --amend
+    amend = commit --amend
+    aamend = commit -a --amend
 
 [push]
     default = current
