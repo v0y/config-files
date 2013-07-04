@@ -1,18 +1,9 @@
 # standard
-alias py="python"
-alias bpy="bpython"
-alias ..="cd ../"
-alias ...="cd ../../"
-alias ....="cd ../../../"
-alias .....="cd ../../../../"
 alias lo="libreoffice"
 alias s="sudo"
-alias install="sudo apt-get install"
 alias krowa="apt-get moo"
 alias lg="ls | grep"
-alias v="vagrant"
 alias psgrep="ps -aux | grep"
-alias gkill="kill pgrep"
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
@@ -20,15 +11,25 @@ alias gitconf="vim ~/.gitconfig"
 alias ctg="cp ~/.bash_aliases ~/workspace/config-files/; cp ~/.gitconfig ~/workspace/config-files/; cp ~/.q3a/q3ut4/config.cfg ~/workspace/config-files/.q3a/q3ut4/; cp ~/.vimrc ~/workspace/config-files/; cp ~/.bash_prompt ~/workspace/config-files/; cp ~/.gitfiles/global-ignore ~/workspace/config-files/.gitfiles/; cp ~/.config/terminator/config ~/workspace/config-files/.config/terminator/; cd ~/workspace/config-files/; git status"
 
 # usage: command; alert
-alias alert='notify-send -t 15000 -i /usr/share/icons/Faenza/apps/48/terminator.png "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/;\s*alert$//'\'')"'
-
-# fix vagrant after kernel update
-alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vboxdrv setup; vagrant up"
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # git
 alias g="git"
-alias rbm-pro="python /home/voy/workspace/flowerbed/sync/sync.py"
-alias gitconfig="gitconf"
+
+# cd
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+
+# install
+alias install="sudo apt-get install"
+alias pinstall="pip install"
+alias pipreq="pip install -r requirements.txt"
+
+# python
+alias py="python"
+alias bpy="bpython"
 
 # django
 alias runserver="python manage.py runserver"
@@ -41,6 +42,10 @@ alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/vagrant/b
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/Celosia"
 alias ling="source ~/.virtualenvs/ling/bin/activate && cd ~/workspace/ling"
 alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/vagrant/castanea"
+
+# vagrant
+alias v="vagrant"
+alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vboxdrv setup; vagrant up"
 
 # fabric
 alias f="fab"
