@@ -37,6 +37,7 @@
     co = checkout
     df = diff
     ph = push
+    phf = push -f
     pl = pull
     phu = push -u
     plu = pull -u
