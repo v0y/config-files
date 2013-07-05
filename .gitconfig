@@ -36,11 +36,6 @@
     # misc
     co = checkout
     df = diff
-    ph = push
-    phf = push -f
-    pl = pull
-    phu = push -u
-    plu = pull -u
     st = status
     rl = reflog
     a = add
@@ -48,6 +43,13 @@
     f = fetch
     alias = config --get-regexp alias
     sh = show
+
+    # push/pull
+    ph = push
+    phf = push -f
+    phu = push -u
+    pl = pull
+    plu = pull -u
 
     # reset
     hard = reset --hard
