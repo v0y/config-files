@@ -47,6 +47,7 @@
     b = branch
     f = fetch
     alias = config --get-regexp alias
+    sh = show
 
     # reset
     hard = reset --hard
@@ -56,8 +57,9 @@
     # stash
     sth = stash
     sthl = stash list
-    stha = stash apply
     stha = "!f() { git stash apply stash@\\{$1\\}; }; f"
+    sthp = "!f() { git stash pop stash@\\{$1\\}; }; f"
+    sthd = "!f() { git stash drop stash@\\{$1\\}; }; f"
 
     # bisect
     bs = bisect
