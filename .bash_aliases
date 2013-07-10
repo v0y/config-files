@@ -4,6 +4,7 @@ alias s="sudo"
 alias krowa="apt-get moo"
 alias lg="ls | grep"
 alias psgrep="ps -aux | grep"
+alias clr="clear"
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
