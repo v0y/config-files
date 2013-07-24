@@ -180,6 +180,10 @@ autocmd BufReadPost *
 " Remember info about open buffers on close
 set viminfo^=%
 
+" show trailing spaces
+:highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+
 """"""""""""""""""""""""""""""
 " => Status line
 """"""""""""""""""""""""""""""
