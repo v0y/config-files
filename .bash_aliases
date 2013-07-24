@@ -35,14 +35,17 @@ alias bpy="bpython"
 # django
 alias runserver="python manage.py runserver"
 alias syncdb="python manage.py syncdb"
+alias migrate="python manage.py migrate"
 alias startproject="django-admin.py startproject"
 alias startapp="python manage.py startapp"
+alias collectstatic="python manage.py collectstatic"
 
 # virtualenvs
 alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/vagrant/bindweed/"
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/Celosia"
 alias ling="source ~/.virtualenvs/ling/bin/activate && cd ~/workspace/ling"
 alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/vagrant/castanea"
+alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/vagrant/Snowdrop"
 
 # vagrant
 alias v="vagrant"
