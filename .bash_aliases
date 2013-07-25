@@ -33,12 +33,9 @@ alias py="python"
 alias bpy="bpython"
 
 # django
-alias runserver="python manage.py runserver"
-alias syncdb="python manage.py syncdb"
-alias migrate="python manage.py migrate"
-alias startproject="django-admin.py startproject"
-alias startapp="python manage.py startapp"
-alias collectstatic="python manage.py collectstatic"
+alias mpy="python manage.py"
+alias dadmin="django-admin.py"
+alias superuser="f() { createsuperuser --username $1 --email $1@django.pl; }; f"
 
 # virtualenvs
 alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/vagrant/bindweed/"
