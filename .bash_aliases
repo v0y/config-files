@@ -50,7 +50,7 @@ alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vbox
 
 # fabric
 alias f="fab"
-alias fg="fab managepy:'migrate --delete-ghost-migrations'"
+alias ghost="fab managepy:'migrate --delete-ghost-migrations'"
 alias fr="fab restart"
 alias ffr="fab full_restart; alert"
 alias fcd="fab clear_database"
