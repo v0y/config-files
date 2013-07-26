@@ -37,6 +37,9 @@ alias mpy="python manage.py"
 alias dadmin="django-admin.py"
 alias superuser="f() { createsuperuser --username $1 --email $1@django.pl; }; f"
 
+# coffeescript
+alias cfc="coffee -c"
+
 # virtualenvs
 alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/vagrant/bindweed/"
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/Celosia"
