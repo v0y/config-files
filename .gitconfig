@@ -69,6 +69,7 @@
     bsg = bisect good
     bsb = bisect bad
     bsr = bisect reset
+    bsbg = "!f() { git bisect start; git bisect bad; git bisect good $1; }; f"
 
     # custom git commands
     apr = accept-pr
