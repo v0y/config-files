@@ -1,9 +1,11 @@
+.externalToolBuilders
 .project
 .pydevproject
 .settings
-build
-*.pyc
 *~*
-*.sqlite3
 *.autosave
+*.pyc
+*.sqlite3
 backup
+build
+
