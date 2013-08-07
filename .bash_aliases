@@ -9,7 +9,7 @@ alias clr="clear"
 # config
 alias alias_edit="vim ~/.bash_aliases"
 alias gitconf="vim ~/.gitconfig"
-alias ctg="cp ~/.bash_aliases ~/workspace/config-files/; cp ~/.gitconfig ~/workspace/config-files/; cp ~/.q3a/q3ut4/config.cfg ~/workspace/config-files/.q3a/q3ut4/; cp ~/.vimrc ~/workspace/config-files/; cp ~/.bash_prompt ~/workspace/config-files/; cp ~/.gitfiles/global-ignore ~/workspace/config-files/.gitfiles/; cp ~/.config/terminator/config ~/workspace/config-files/.config/terminator/; cp ~/.ssh/config ~/workspace/config-files/.ssh; cd ~/workspace/config-files/; git status"
+alias ctg="cp ~/.bash_aliases ~/workspace/config-files/; cp ~/.gitconfig ~/workspace/config-files/; cp ~/.q3a/q3ut4/config.cfg ~/workspace/config-files/.q3a/q3ut4/; cp ~/.vimrc ~/workspace/config-files/; cp ~/.bash_prompt ~/workspace/config-files/; cp ~/.gitfiles/global-ignore ~/workspace/config-files/.gitfiles/; cp ~/.config/terminator/config ~/workspace/config-files/.config/terminator/; cp ~/.ssh/config ~/workspace/config-files/.ssh; cp /etc/hosts ~/workspace/config-files/etc/hosts; cd ~/workspace/config-files/; git status"
 
 # usage: command; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
