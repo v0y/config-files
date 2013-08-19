@@ -50,6 +50,7 @@ alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/de
 # vagrant
 alias v="vagrant"
 alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vboxdrv setup; vagrant up"
+alias vrun="cd ~/workspace/developer && ./project.sh run"
 
 # fabric
 alias f="fab"
