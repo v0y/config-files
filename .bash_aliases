@@ -41,11 +41,11 @@ alias superuser="f() { createsuperuser --username $1 --email $1@django.pl; }; f"
 alias cfc="coffee -c"
 
 # virtualenvs
-alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/vagrant/bindweed/"
-alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/Celosia"
+alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/developer/src/bindweed/"
+alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/developer/src/Celosia"
 alias ling="source ~/.virtualenvs/ling/bin/activate && cd ~/workspace/ling"
-alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/vagrant/castanea"
-alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/vagrant/Snowdrop"
+alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/developer/src/cas"
+alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/developer/src/Snowdrop"
 
 # vagrant
 alias v="vagrant"
