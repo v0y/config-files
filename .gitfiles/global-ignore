@@ -5,6 +5,7 @@
 .settings
 *~*
 *.autosave
+*.map
 *.pyc
 *.sqlite3
 backup
