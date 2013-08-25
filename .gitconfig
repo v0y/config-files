@@ -24,6 +24,7 @@
     rbs = rebase --skip
 
     # merge
+    m = merge
     ms = merge --squash
     msm = merge --squash master
 
