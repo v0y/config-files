@@ -84,6 +84,7 @@
     cim = commit -m
     cia = commit -a
     ciam = commit -a -m
+    cic = commit --cleanup=whitespace
     amend = commit --amend
     aamend = commit -a --amend
 
