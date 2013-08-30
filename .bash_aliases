@@ -45,7 +45,7 @@ alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/developer
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/developer/src/Celosia"
 alias ling="source ~/.virtualenvs/ling/bin/activate && cd ~/workspace/ling"
 alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/developer/src/cas"
-alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/developer/src/Snowdrop"
+alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/developer/src/snowdrop"
 
 # vagrant
 alias v="vagrant"
