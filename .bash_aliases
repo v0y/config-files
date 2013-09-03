@@ -35,7 +35,7 @@ alias bpy="bpython"
 # django
 alias mpy="python manage.py"
 alias dadmin="django-admin.py"
-alias superuser="f() { python manage.py createsuperuser --username $1 --email $1@django.pl; }; f"
+superuser() { python manage.py createsuperuser --username $1 --email $1@django.pl; };
 
 # coffeescript
 alias cfc="coffee -c"
@@ -50,7 +50,9 @@ alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/de
 # vagrant
 alias v="vagrant"
 alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vboxdrv setup; vagrant up"
-alias vrun="cd ~/workspace/developer && ./project.sh run"
+vrun() { cd ~/workspace/developer; ./project.sh run $1; cd -; alert; };
+vrefresz() { cd ~/workspace/developer; ./project.sh refresh $1; cd -; alert; };
+alias vrefresh="vrefresz"
 
 # fabric
 alias f="fab"
@@ -67,3 +69,7 @@ alias fsql="fab sql"
 alias ft="fab test"
 alias fadmin="fab managepy:'createsuperuser --username admin --email a@a.pl'"
 alias ffra="fab full_restart; alert; fab managepy:'createsuperuser --username admin --email a@a.pl'"
+
+# backups
+alias wp-get-dump="scp wp:/home/snowdrop/www/backups/new/latest /home/voy/bazy/snowdrop/latest_wpolityce.sql.gz"
+alias wn-get-dump="scp wn:/home/wnas/www/backups/mysql/latest /home/voy/bazy/snowdrop/latest_wnas.sql.gz"
