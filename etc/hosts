@@ -5,6 +5,9 @@
 127.0.0.1   static.bindweed.local
 127.0.0.1   konto.wsumie.local
 127.0.0.1   snowdrop.local
+127.0.0.1   static.snowdrop.local
+127.0.0.1   media.snowdrop.local
+
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
