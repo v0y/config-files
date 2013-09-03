@@ -85,8 +85,11 @@
     cia = commit -a
     ciam = commit -a -m
     cic = commit --cleanup=whitespace
+    ciac = commit -a --cleanup=whitespace
     amend = commit --amend
     aamend = commit -a --amend
+    amendc = commit --amend --cleanup=whitespace
+    aamendc = commit -a --amend --cleanup=whitespace
 
 [push]
     default = current
