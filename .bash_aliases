@@ -15,7 +15,14 @@ alias ctg="cp ~/.bash_aliases ~/workspace/config-files/; cp ~/.gitconfig ~/works
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # git
-alias g="git"
+# `g` with no arguments is `git status` and with arguments acts like `git`
+function g() {
+  if [ $# -eq 0 ]; then
+    git status
+  else
+    git "$@"
+  fi
+}
 
 # cd
 alias ..="cd ../"
