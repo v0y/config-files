@@ -51,6 +51,7 @@
     phu = push -u
     pl = pull
     plu = pull -u
+    pht = push --tags
 
     # reset
     hard = reset --hard
