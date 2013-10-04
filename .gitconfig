@@ -52,6 +52,8 @@
     pl = pull
     plu = pull -u
     pht = push --tags
+    phut = push -u --tags
+    phft = push --force --tags
 
     # reset
     hard = reset --hard
@@ -91,6 +93,9 @@
     aamend = commit -a --amend
     amendc = commit --amend --cleanup=whitespace
     aamendc = commit -a --amend --cleanup=whitespace
+
+    # tag
+    t = tag
 
 [push]
     default = current
