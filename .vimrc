@@ -124,8 +124,9 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 set nu
-colorscheme solarized 
 set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized 
 
 " Set extra options when running in GUI mode
 if has("gui_running")
