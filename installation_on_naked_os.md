@@ -20,7 +20,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 # apt-get - programy
 ```
 sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client ubuntuone-client ubuntuone-control-panel ubuntuone-client-proxy ubuntuone-control-panel-qt p7zip npm python
-``
+```
 
 # apt-get - biblioteki
 ```
