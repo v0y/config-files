@@ -45,6 +45,6 @@ sudo npm install -g coffee-script less
 
 * [PyCharm](https://www.jetbrains.com/pycharm/download/index.html)
 * [Opera](http://www.opera.com/download/guide/?os=linux)
-* [Vagrant](http://downloads.vagrantup.com/]
+* [Vagrant](http://downloads.vagrantup.com/)
 
 
