@@ -5,11 +5,12 @@ alias krowa="apt-get moo"
 alias lg="ls | grep"
 alias psgrep="ps -aux | grep"
 alias clr="clear"
+alias ll="ls -l"
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
 alias gitconf="vim ~/.gitconfig"
-alias ctg="cp ~/.bash_aliases ~/workspace/config-files/; cp ~/.gitconfig ~/workspace/config-files/; cp ~/.q3a/q3ut4/config.cfg ~/workspace/config-files/.q3a/q3ut4/; cp ~/.vimrc ~/workspace/config-files/; cp ~/.bash_prompt ~/workspace/config-files/; cp ~/.gitfiles/global-ignore ~/workspace/config-files/.gitfiles/; cp ~/.config/terminator/config ~/workspace/config-files/.config/terminator/; cp ~/.ssh/config ~/workspace/config-files/.ssh; cp /etc/hosts ~/workspace/config-files/etc/hosts; cd ~/workspace/config-files/; git status"
+alias ctg="cp ~/.bash_aliases ~/workspace/dotfiles/; cp ~/.gitconfig ~/workspace/dotfiles/; cp ~/.q3a/q3ut4/config.cfg ~/workspace/dotfiles/.q3a/q3ut4/; cp ~/.vimrc ~/workspace/dotfiles/; cp ~/.bash_prompt ~/workspace/dotfiles/; cp ~/.gitfiles/global-ignore ~/workspace/dotfiles/.gitfiles/; cp ~/.config/terminator/config ~/workspace/dotfiles/.config/terminator/; cp ~/.ssh/config ~/workspace/dotfiles/.ssh; cp /etc/hosts ~/workspace/dotfiles/etc/hosts; cd ~/workspace/dotfiles/; git status"
 
 # usage: command; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -48,7 +49,7 @@ superuser() { python manage.py createsuperuser --username $1 --email $1@django.p
 alias cfc="coffee -c"
 
 # virtualenvs
-alias bw="source ~/.virtualenvs/vagrant/bin/activate && cd ~/workspace/developer/src/bindweed/"
+alias bw="source ~/.virtualenvs/bindweed/bin/activate && cd ~/workspace/developer/src/bindweed/"
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/developer/src/Celosia"
 alias stwa="source ~/.virtualenvs/stwa/bin/activate && cd ~/workspace/stwa"
 alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/developer/src/cas"
