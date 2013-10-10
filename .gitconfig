@@ -10,6 +10,7 @@
 
 [core]
     excludesfile = ~/.gitfiles/global-ignore
+	editor = vim
 
 [alias]
     # rebase
