@@ -96,6 +96,19 @@
 
     # tag
     t = tag
+    # tag for deploy
+    td = "!f() { git tag $2-`date +%Y%m%d`-$1; }; f"
+    # bindweed
+    tdws = "!f() { git tag $2-`date +%Y%m%d`-wsumie; }; f"
+    tdbw = "!f() { git tag $2-`date +%Y%m%d`-bindweed; }; f"
+    # cas
+    tdkws = "!f() { git tag $2-`date +%Y%m%d`-konto.wsumie.pl; }; f"
+    tdkbw = "!f() { git tag $2-`date +%Y%m%d`-konto.bindweed.pl; }; f" 
+    # snowdropy
+    tdwp = "!f() { git tag $2-`date +%Y%m%d`-wpolityce; }; f"
+    tdwn = "!f() { git tag $2-`date +%Y%m%d`-wnas; }; f"
+    tdwg = "!f() { git tag $2-`date +%Y%m%d`-wgospodarce; }; f"
+
 
 [push]
     default = current
