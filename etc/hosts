@@ -9,6 +9,9 @@
 127.0.0.1   media.snowdrop.local
 127.0.0.1   static.konto.wsumie.local
 127.0.0.1   media.konto.wsumie.local
+127.0.0.1   sorbus.local
+127.0.0.1   static.sorbus.local
+127.0.0.1   media.sorbus.local
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
