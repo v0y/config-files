@@ -122,11 +122,10 @@ set tm=500
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
-syntax enable
+syntax on
 set nu
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized 
+set background=light
+colorscheme solarized
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -171,7 +170,6 @@ set tw=500
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
 
 " Return to last edit position when opening files (You want this!)
 autocmd BufReadPost *
