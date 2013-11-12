@@ -19,7 +19,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 
 # apt-get - programy
 ```
-sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client ubuntuone-client ubuntuone-control-panel ubuntuone-client-proxy ubuntuone-control-panel-qt p7zip npm python
+sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client ubuntuone-client ubuntuone-control-panel ubuntuone-client-proxy ubuntuone-control-panel-qt p7zip p7zip-full npm python gconf-editor tree
 ```
 
 # apt-get - biblioteki
@@ -30,6 +30,11 @@ sudo apt-get install libxml2-dev libxslt-dev g++ make checkinstall python-virtua
 # npm
 ```
 sudo npm install -g coffee-script less
+```
+
+# easy install
+```
+easy_install -U Sphinx
 ```
 
 # Other
@@ -46,5 +51,6 @@ sudo npm install -g coffee-script less
 * [PyCharm](https://www.jetbrains.com/pycharm/download/index.html)
 * [Opera](http://www.opera.com/download/guide/?os=linux)
 * [Vagrant](http://downloads.vagrantup.com/)
+* [xflux](http://justgetflux.com/linux.html)
 
 
