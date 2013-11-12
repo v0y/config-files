@@ -11,6 +11,7 @@
 [core]
     excludesfile = ~/.gitfiles/global-ignore
 	editor = vim
+	autocrlf = input
 
 [alias]
     # rebase
@@ -78,6 +79,7 @@
 
     # custom git commands
     apr = accept-pr
+    sapr = "!f() { git stash && git accept-pr $1 && git stash apply stash@\\{0\\}; }; f"
 
     # log
     l = log
@@ -98,17 +100,17 @@
     # tag
     t = tag
     # tag for deploy
-    td = "!f() { git tag $2-`date +%Y%m%d`-$1; }; f"
+    td = "!f() { git tag $1-`date +%Y%m%d`-$2; }; f"
     # bindweed
-    tdws = "!f() { git tag $2-`date +%Y%m%d`-wsumie; }; f"
-    tdbw = "!f() { git tag $2-`date +%Y%m%d`-bindweed; }; f"
+    tdws = "!f() { git tag $1-`date +%Y%m%d`-wsumie; }; f"
+    tdbw = "!f() { git tag $1-`date +%Y%m%d`-bindweed; }; f"
     # cas
-    tdkws = "!f() { git tag $2-`date +%Y%m%d`-konto.wsumie.pl; }; f"
-    tdkbw = "!f() { git tag $2-`date +%Y%m%d`-konto.bindweed.pl; }; f" 
+    tdkws = "!f() { git tag $1-`date +%Y%m%d`-konto.wsumie.pl; }; f"
+    tdkbw = "!f() { git tag $1-`date +%Y%m%d`-konto.bindweed.pl; }; f" 
     # snowdropy
-    tdwp = "!f() { git tag $2-`date +%Y%m%d`-wpolityce; }; f"
-    tdwn = "!f() { git tag $2-`date +%Y%m%d`-wnas; }; f"
-    tdwg = "!f() { git tag $2-`date +%Y%m%d`-wgospodarce; }; f"
+    tdwp = "!f() { git tag $1-`date +%Y%m%d`-wpolityce; }; f"
+    tdwn = "!f() { git tag $1-`date +%Y%m%d`-wnas; }; f"
+    tdwg = "!f() { git tag $1-`date +%Y%m%d`-wgospodarce; }; f"
 
 
 [push]
