@@ -24,6 +24,7 @@ function g() {
     git "$@"
   fi
 }
+alias git="hub"
 
 # cd
 alias ..="cd ../"
@@ -49,11 +50,14 @@ superuser() { python manage.py createsuperuser --username $1 --email $1@django.p
 alias cfc="coffee -c"
 
 # virtualenvs
+venv() { source ~/.virtualenvs/$1/bin/activate; };
+venv_create() { virtualenv ~/.virtualenvs/$1 && venv $1; };
 alias bw="source ~/.virtualenvs/bindweed/bin/activate && cd ~/workspace/developer/src/bindweed/"
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/developer/src/Celosia"
 alias stwa="source ~/.virtualenvs/stwa/bin/activate && cd ~/workspace/stwa"
 alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/developer/src/cas"
 alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/developer/src/snowdrop"
+alias sorbus="source ~/.virtualenvs/sorbus/bin/activate && cd ~/workspace/developer/src/sorbus"
 
 # vagrant
 alias v="vagrant"
@@ -77,7 +81,3 @@ alias fsql="fab sql"
 alias ft="fab test"
 alias fadmin="fab managepy:'createsuperuser --username admin --email a@a.pl'"
 alias ffra="fab full_restart; alert; fab managepy:'createsuperuser --username admin --email a@a.pl'"
-
-# backups
-alias wp-get-dump="scp wp:/home/snowdrop/www/backups/new/latest /home/voy/bazy/snowdrop/latest_wpolityce.sql.gz"
-alias wn-get-dump="scp wn:/home/wnas/www/backups/mysql/latest /home/voy/bazy/snowdrop/latest_wnas.sql.gz"
