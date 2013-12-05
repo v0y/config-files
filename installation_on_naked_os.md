@@ -24,7 +24,7 @@ sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp
 
 # apt-get - biblioteki
 ```
-sudo apt-get install libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev
+sudo apt-get install libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev gedit-latex-plugin texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texlive-lang-polish imagemagick
 ```
 
 # npm
