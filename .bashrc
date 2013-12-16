@@ -20,6 +20,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# load prompt
+if [ -f ~/.bash_prompt ]; then
+    . ~/.bash_prompt
+fi
+
 # if the command-not-found package is installed, use it
 if [ -x /usr/lib/command-not-found ]; then
 	function command_not_found_handle {
