@@ -19,7 +19,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 
 # apt-get
 ```sh
-sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client ubuntuone-client ubuntuone-control-panel ubuntuone-client-proxy ubuntuone-control-panel-qt p7zip p7zip-full npm python gconf-editor tree subversion vim-gnome libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texlive-lang-polish imagemagick opera curl
+sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client ubuntuone-client ubuntuone-control-panel ubuntuone-client-proxy ubuntuone-control-panel-qt p7zip p7zip-full npm python gconf-editor tree subversion vim-gnome libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texlive-lang-polish imagemagick opera curl rake
 ```
 
 # npm
