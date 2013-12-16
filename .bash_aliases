@@ -16,12 +16,12 @@ alias ctg="cp ~/.bash_aliases ~/workspace/dotfiles/; cp ~/.gitconfig ~/workspace
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # git
-# `g` with no arguments is `git status` and with arguments acts like `git`
+# `g` with no arguments is `git status` and with arguments acts like `hub`
 function g() {
   if [ $# -eq 0 ]; then
     git status
   else
-    git "$@"
+    hub "$@"
   fi
 }
 alias git="hub"
