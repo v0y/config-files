@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# enable fab autocomplete
+if [ -f /etc/fab_bash_completion ]; then
+    . /etc/fab_bash_completion
+fi

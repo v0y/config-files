@@ -11,3 +11,5 @@ ln -si `pwd`/.config/terminator/config ~/.config/terminator
 ln -si `pwd`/.gitconfig ~
 
 sudo ln -si `pwd`/etc/hosts /etc/
+sudo ln -si `pwd`/etc/bash_completion /etc/
+sudo ln -si `pwd`/etc/fab_bash_completion /etc/
