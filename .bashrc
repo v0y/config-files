@@ -38,3 +38,7 @@ if [ -x /usr/lib/command-not-found ]; then
 	}
 fi
 
+# load out of repo shit
+if [ -f ~/.out_of_repo_bash_shit ]; then
+    . ~/.out_of_repo_bash_shit
+fi
