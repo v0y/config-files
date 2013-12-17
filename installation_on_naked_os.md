@@ -61,6 +61,7 @@ easy_install -U Sphinx
 
 * [hub](https://github.com/github/hub)
 * [PyCharm](https://www.jetbrains.com/pycharm/download/index.html)
+* [vim solarized](https://github.com/altercation/vim-colors-solarized)
 * [Vagrant](http://downloads.vagrantup.com/)
 * [xflux](http://justgetflux.com/linux.html)
 
