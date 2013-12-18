@@ -9,7 +9,8 @@ ln -si `pwd`/.vimrc ~
 ln -si `pwd`/.q3a/q3ut4/config.cfg ~/.q3a/q3ut4/
 ln -si `pwd`/.config/terminator/config ~/.config/terminator
 ln -si `pwd`/.gitconfig ~
+ln -si `pwd`/.bash_completion ~
+ln -si `pwd`/.fab_bash_completion ~
+ln -si `pwd`/.git_bash_completion ~
 
 sudo ln -si `pwd`/etc/hosts /etc/
-sudo ln -si `pwd`/etc/bash_completion /etc/
-sudo ln -si `pwd`/etc/fab_bash_completion /etc/

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# enable fab autocomplete
+if [ -f ~/.fab_bash_completion ]; then
+    . ~/.fab_bash_completion
+fi
+
+# enable git autocomplete
+if [ -f ~/.git_bash_completion ]; then
+    . ~/.git_bash_completion
+fi
+

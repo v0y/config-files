@@ -25,6 +25,11 @@ if [ -f ~/.bash_prompt ]; then
     . ~/.bash_prompt
 fi
 
+# load autocomplete
+if [ -f ~/.bash_completion ]; then
+    . ~/.bash_completion
+fi
+
 # if the command-not-found package is installed, use it
 if [ -x /usr/lib/command-not-found ]; then
 	function command_not_found_handle {
