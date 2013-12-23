@@ -6,6 +6,7 @@ alias lg="ls | grep"
 alias psgrep="ps -aux | grep"
 alias clr="clear"
 alias ll="ls -l"
+alias la="ls -al"
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
