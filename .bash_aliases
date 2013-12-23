@@ -10,7 +10,6 @@ alias ll="ls -l"
 # config
 alias alias_edit="vim ~/.bash_aliases"
 alias gitconf="vim ~/.gitconfig"
-alias ctg="cp ~/.bash_aliases ~/workspace/dotfiles/; cp ~/.gitconfig ~/workspace/dotfiles/; cp ~/.q3a/q3ut4/config.cfg ~/workspace/dotfiles/.q3a/q3ut4/; cp ~/.vimrc ~/workspace/dotfiles/; cp ~/.bash_prompt ~/workspace/dotfiles/; cp ~/.gitfiles/global-ignore ~/workspace/dotfiles/.gitfiles/; cp ~/.config/terminator/config ~/workspace/dotfiles/.config/terminator/; cp ~/.ssh/config ~/workspace/dotfiles/.ssh; cp /etc/hosts ~/workspace/dotfiles/etc/hosts; cd ~/workspace/dotfiles/; git status"
 
 # usage: command; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
