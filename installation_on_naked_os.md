@@ -72,4 +72,4 @@ easy_install -U Sphinx
 * [ghostery](https://addons.opera.com/en/extensions/details/ghostery)
 * [github notifier](https://addons.opera.com/en/extensions/details/github-notifier)
 * [open in background with long press](https://addons.opera.com/en/extensions/details/open-in-background-with-long-press)
-
+* [source](https://addons.opera.com/en/extensions/details/source)
