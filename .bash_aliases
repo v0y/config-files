@@ -53,6 +53,8 @@ alias cfc="coffee -c"
 venv() { source ~/.virtualenvs/$1/bin/activate; };
 venv_create() { virtualenv ~/.virtualenvs/$1 && venv $1; };
 venv_recreate() { rm -rf ~/.virtualenvs/$1 && virtualenv ~/.virtualenvs/$1 && venv $1; };
+venv3_create() { pyvenv-3.3 ~/.virtualenvs/$1 && venv $1; };
+venv3_recreate() { rm -rf ~/.virtualenvs/$1 && pyvenv-3.3 ~/.virtualenvs/$1 && venv $1; };
 alias bw="source ~/.virtualenvs/bindweed/bin/activate && cd ~/workspace/developer/src/bindweed/"
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/developer/src/Celosia"
 alias stwa="source ~/.virtualenvs/stwa/bin/activate && cd ~/workspace/stwa"
