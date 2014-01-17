@@ -7,6 +7,8 @@ alias psgrep="ps -aux | grep"
 alias clr="clear"
 alias ll="ls -l"
 alias la="ls -al"
+alias gr="grep"
+initd() { sudo /etc/init.d/$1 $2;};
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
@@ -55,6 +57,7 @@ venv_create() { virtualenv ~/.virtualenvs/$1 && venv $1; };
 venv_recreate() { rm -rf ~/.virtualenvs/$1 && virtualenv ~/.virtualenvs/$1 && venv $1; };
 venv3_create() { virtualenv --python=/usr/bin/python3.3 ~/.virtualenvs/$1 && venv $1; };
 venv3_recreate() { rm -rf ~/.virtualenvs/$1 && virtualenv --python=/usr/bin/python3.3 ~/.virtualenvs/$1 && venv $1; };
+project() { source ~/.virtualenvs/$1/bin/activate && cd ~/workspace/$1; };
 alias bw="source ~/.virtualenvs/bindweed/bin/activate && cd ~/workspace/developer/src/bindweed/"
 alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/developer/src/Celosia"
 alias stwa="source ~/.virtualenvs/stwa/bin/activate && cd ~/workspace/stwa"
