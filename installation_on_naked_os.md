@@ -50,6 +50,15 @@ easy_install -U Sphinx
       https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
   ```
 
+* vim plugins via pathogen
+  ```sh
+  cd ~/.vim/bundle && \
+  git clone git://github.com/scrooloose/nerdtree.git && \
+  git clone git://github.com/altercation/vim-colors-solarized.git && \
+  git clone git://git.code.sf.net/p/vim-latex/vim-latex vim-latex-vim-latex && \
+  git clone git://github.com/plasticboy/vim-markdown.git
+  ```
+
 * source code pro font
   ```sh
   wget http://downloads.sourceforge.net/project/sourcecodepro.adobe/SourceCodePro_FontsOnly-1.017.zip
