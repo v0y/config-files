@@ -26,14 +26,10 @@
 "    -> Colors and Fonts
 "    -> Files and backups
 "    -> Text, tab and indent related
-"    -> Visual mode related
-"    -> Moving around, tabs and buffers
 "    -> Status line
 "    -> Editing mappings
-"    -> vimgrep searching and cope displaying
-"    -> Spell checking
-"    -> Misc
-"    -> Helper functions
+"    -> Random shit
+"    -> Plugins
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -168,6 +164,8 @@ set tabstop=4
 set lbr
 set tw=500
 
+set nowrap
+
 set ai "Auto indent
 set si "Smart indent
 
@@ -182,6 +180,8 @@ set viminfo^=%
 " show trailing spaces
 :highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+
+set spell spelllang=pl
 
 """"""""""""""""""""""""""""""
 " => Status line
@@ -247,3 +247,11 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-latex
+" http://vim-latex.sourceforge.net/documentation/latex-suite/recommended-settings.html
+let g:tex_flavor='latex'
+set grepprg=grep\ -nH\ $*
