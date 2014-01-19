@@ -181,7 +181,6 @@ set viminfo^=%
 :highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 
-set spell spelllang=pl
 
 """"""""""""""""""""""""""""""
 " => Status line
