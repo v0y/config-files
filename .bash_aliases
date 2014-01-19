@@ -46,6 +46,7 @@ alias bpy="bpython"
 # django
 alias mpy="python manage.py"
 alias dadmin="django-admin.py"
+alias dadmincreate="python manage.py createsuperuser --username admin --email a@a.pl"
 superuser() { python manage.py createsuperuser --username $1 --email $1@django.pl; };
 
 # coffeescript
