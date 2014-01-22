@@ -10,6 +10,9 @@ alias la="ls -al"
 alias gr="grep"
 initd() { sudo /etc/init.d/$1 $2;};
 
+# special
+alias cinnamon_fix="export DISPLAY=:0; cinnamon &"
+
 # config
 alias alias_edit="vim ~/.bash_aliases"
 alias gitconf="vim ~/.gitconfig"
