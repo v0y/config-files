@@ -11,6 +11,10 @@
 127.0.0.1   sorbus.local
 127.0.0.1   static.sorbus.local
 127.0.0.1   media.sorbus.local
+127.0.0.1   ficus.local
+127.0.0.1   static.ficus.local
+127.0.0.1   media.ficus.local
+
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
