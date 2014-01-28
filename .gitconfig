@@ -116,6 +116,8 @@
     # hub
     branch-ticket-prefix = !git branch | sed -n 's/* \\([0-9]*\\).*/\\1/p'
     gh = "!f() { hub browse -- issues/$1; }; f $(git branch-ticket-prefix)"
+    issue = "!f() { hub browse -- issues/$1; }; f"
+    pr = pull-request
 
 [push]
     default = current
