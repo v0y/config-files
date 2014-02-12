@@ -119,6 +119,11 @@
     issue = "!f() { hub browse -- issues/$1; }; f"
     pr = pull-request
 
+    # submodules
+    sub = submodule
+    suba = submodule add
+    subu = submodule update
+
 [push]
     default = current
 
