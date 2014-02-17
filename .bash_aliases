@@ -56,18 +56,8 @@ superuser() { python manage.py createsuperuser --username $1 --email $1@django.p
 alias cfc="coffee -c"
 
 # virtualenvs
-venv() { source ~/.virtualenvs/$1/bin/activate; };
-venv_create() { virtualenv ~/.virtualenvs/$1 && venv $1; };
-venv_recreate() { rm -rf ~/.virtualenvs/$1 && virtualenv ~/.virtualenvs/$1 && venv $1; };
-venv3_create() { virtualenv --python=/usr/bin/python3.3 ~/.virtualenvs/$1 && venv $1; };
-venv3_recreate() { rm -rf ~/.virtualenvs/$1 && virtualenv --python=/usr/bin/python3.3 ~/.virtualenvs/$1 && venv $1; };
-project() { source ~/.virtualenvs/$1/bin/activate && cd ~/workspace/$1; };
-alias bw="source ~/.virtualenvs/bindweed/bin/activate && cd ~/workspace/developer/src/bindweed/"
-alias rpi="source ~/.virtualenvs/celosia/bin/activate && cd ~/workspace/developer/src/Celosia"
-alias stwa="source ~/.virtualenvs/stwa/bin/activate && cd ~/workspace/stwa"
-alias cas="source ~/.virtualenvs/castanea/bin/activate && cd ~/workspace/developer/src/cas"
-alias snowdrop="source ~/.virtualenvs/snowdrop/bin/activate && cd ~/workspace/developer/src/snowdrop"
-alias sorbus="source ~/.virtualenvs/sorbus/bin/activate && cd ~/workspace/developer/src/sorbus"
+alias mkvirtualenv3="mkvirtualenv --python=/usr/bin/python3.3"
+cddev-here() { DIR=`pwd`; cdvirtualenv && cd bin && echo "alias cddev='cd $DIR'" >> postactivate && cat postactivate; };
 
 # vagrant
 alias v="vagrant"

@@ -32,6 +32,11 @@ sudo npm install -g coffee-script less
 easy_install -U Sphinx
 ```
 
+# pip
+```sh
+sudo pip install virtualenvwrapper
+```
+
 # Other
 
 * Node.js
