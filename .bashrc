@@ -44,9 +44,12 @@ if [ -x /usr/lib/command-not-found ]; then
 fi
 
 # virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=`which python`
+export VIRTUALENVWRAPPER_VIRTUALENV=`which virtualenv`
+export PROJECT_HOME=$HOME/workspace
 export WORKON_HOME=~/.virtualenvs
 mkdir -p $WORKON_HOME
-source /usr/local/bin/virtualenvwrapper.sh
+source `which virtualenvwrapper.sh`
 
 # load out of repo shit
 if [ -f ~/.out_of_repo_bash_shit ]; then
