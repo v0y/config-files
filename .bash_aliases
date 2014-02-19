@@ -59,6 +59,10 @@ alias cfc="coffee -c"
 alias mkvirtualenv3="mkvirtualenv --python=/usr/bin/python3.3"
 cddev-here() { DIR=`pwd`; cdvirtualenv && cd bin && echo "alias cddev='cd $DIR'" >> postactivate && cat postactivate; };
 
+# nodeenvs
+mknodeenv() { cd ~/.nodeenvs && nodeenv $1 && cd -; };
+workonnode() { . ~/.nodeenvs/$1/bin/activate; };
+
 # vagrant
 alias v="vagrant"
 alias vfix="sudo apt-get install linux-headers-`uname -r`; sudo /etc/init.d/vboxdrv setup; vagrant up"
