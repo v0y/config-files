@@ -3,10 +3,11 @@ alias lo="libreoffice"
 alias s="sudo"
 alias krowa="apt-get moo"
 alias lg="ls | grep"
+alias llg="ls -lh | grep"
 alias psgrep="ps -aux | grep"
 alias clr="clear"
-alias ll="ls -l"
-alias la="ls -al"
+alias ll="ls -lh"
+alias la="ls -alh"
 alias gr="grep"
 initd() { sudo /etc/init.d/$1 $2;};
 
