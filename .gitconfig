@@ -105,6 +105,7 @@
     # bindweed
     tdws = "!f() { git tag $1-`date +%Y%m%d`-wsumie; }; f"
     tdbw = "!f() { git tag $1-`date +%Y%m%d`-bindweed; }; f"
+    tds1bw = "!f() { git tag $1-`date +%Y%m%d`-seed1.bindweed; }; f"
     # cas
     tdkws = "!f() { git tag $1-`date +%Y%m%d`-konto.wsumie.pl; }; f"
     tdkbw = "!f() { git tag $1-`date +%Y%m%d`-konto.bindweed.pl; }; f" 
