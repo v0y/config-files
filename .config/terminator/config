@@ -14,7 +14,7 @@
   broadcast_group = <Super>KP_2
   broadcast_off = <Super>KP_1
 [profiles]
-  [[solarized-light]]
+  [[default]]
     scrollbar_position = hidden
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     background_image = None
@@ -26,7 +26,7 @@
     font = Source Code Pro Medium 10
     background_color = "#eee8d5"
     scrollback_infinite = True
-  [[default]]
+  [[solarized-dark]]
     scrollbar_position = hidden
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     background_image = None
