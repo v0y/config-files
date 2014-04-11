@@ -14,3 +14,4 @@ ln -si `pwd`/.fab_bash_completion ~
 ln -si `pwd`/.git_bash_completion ~
 
 sudo ln -si `pwd`/etc/hosts /etc/
+sudo ln -si `pwd`/etc/modprobe.d/hid_apple.conf /etc/modprobe.d/
