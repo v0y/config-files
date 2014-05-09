@@ -57,7 +57,7 @@ sudo pip install virtualenvwrapper nodeenv
 
 * vim plugins via pathogen
   ```sh
-  cd ~/.vim/bundle && \
+  mkdir -p ~/.vim/bundle &&     cd ~/.vim/bundle && \
   git clone git://github.com/scrooloose/nerdtree.git && \
   git clone git://github.com/altercation/vim-colors-solarized.git && \
   git clone git://git.code.sf.net/p/vim-latex/vim-latex vim-latex-vim-latex && \
