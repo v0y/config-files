@@ -51,6 +51,8 @@ export WORKON_HOME=~/.virtualenvs
 mkdir -p $WORKON_HOME
 source `which virtualenvwrapper.sh`
 
+export TERM=xterm-256color
+
 # load out of repo shit
 if [ -f ~/.out_of_repo_bash_shit ]; then
     . ~/.out_of_repo_bash_shit
