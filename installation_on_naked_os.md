@@ -73,6 +73,11 @@ sudo pip install virtualenvwrapper nodeenv
   fc-cache -f -v
   ```
 
+* ghi
+  ```sh
+  sudo curl -sL https://raw.githubusercontent.com/stephencelis/ghi/master/ghi > ghi && chmod 755 ghi && mv ghi /usr/local/bin
+  ```
+
 * [hub](https://github.com/github/hub)
 * [PyCharm](https://www.jetbrains.com/pycharm/download/index.html)
 * [vim solarized](https://github.com/altercation/vim-colors-solarized)
