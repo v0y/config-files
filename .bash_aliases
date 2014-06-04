@@ -13,6 +13,7 @@ initd() { sudo /etc/init.d/$1 $2;};
 
 # special
 alias cinnamon_fix="export DISPLAY=:0; cinnamon &"
+alias fn_fix="echo 2 > /sys/module/hid_apple/parameters/fnmode"
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
