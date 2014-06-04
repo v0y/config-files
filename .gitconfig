@@ -81,6 +81,7 @@
     # custom git commands
     apr = accept-pr
     sapr = "!f() { git stash && git accept-pr $1; git stash apply stash@\\{0\\}; }; f"
+    reword = "!f() { branch=`git symbolic-ref --short HEAD`; git checkout $1; git commit --amend --cleanup=whitespace; git rebase HEAD $branch; }; f"
 
     # log
     l = log
