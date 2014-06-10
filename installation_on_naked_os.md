@@ -1,11 +1,12 @@
 # add sources
 ```sh
+sudo -su root
 echo "
 # hipchat
 deb http://downloads.hipchat.com/linux/apt stable main
 # spotify
 deb http://repository.spotify.com stable non-free
-" > /etc/apt/sources.list.d/atlassian-hipchat.list
+" > /etc/apt/sources.list
 ```
 
 # get keys
