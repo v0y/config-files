@@ -127,6 +127,11 @@
     suba = submodule add
     subu = submodule update
 
+    # ghi
+    cm = "!f() { ghi comment $1 -m \"$2\"; }; f"
+    as = "!f() { ghi assign $1 $2; }; f"
+    cmas = "!f() { ghi comment $1 -m $2 && ghi assign $1 $3; }; f"
+
 [push]
     default = current
 
