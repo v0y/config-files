@@ -85,7 +85,7 @@
 
     # log
     l = log
-    lg = log --oneline --graph
+    lg = log --pretty=format:'%C(yellow)%h %Cblue%an%Cgreen%d %Creset%s' --date=iso
 
     # commit
     ci = commit
