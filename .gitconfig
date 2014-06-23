@@ -85,7 +85,7 @@
 
     # log
     l = log
-    lg = log --pretty=format:'%C(yellow)%h %Cblue%an%Cgreen%d %Creset%s' --date=iso
+    lg = log --pretty=format:'%C(yellow)%h %Cblue%an %Creset%s%Cgreen%d' --date=iso
 
     # commit
     ci = commit
