@@ -3,6 +3,7 @@
 ln -si `pwd`/.bash_aliases ~
 ln -si `pwd`/.bash_prompt ~
 ln -si `pwd`/.bashrc ~
+ln -si `pwd`/.bpython/* ~/.bpython/
 ln -si `pwd`/.gitfiles/global-ignore ~/.gitfiles/
 ln -si `pwd`/.ssh/config ~/.ssh
 ln -si `pwd`/.vimrc ~
