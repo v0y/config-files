@@ -73,6 +73,14 @@ sudo pip install virtualenvwrapper nodeenv
   cp SourceCodePro_FontsOnly-1.017/OTF/*.otf ~/.fonts/
   fc-cache -f -v
   ```
+  
+* input font
+  [download page](http://input.fontbureau.com/download/)
+  ```sh
+  cd ~/Downloads/
+  unzip Input-Font.zip && cp Input_Fonts/Input/* ~/.fonts/
+  fc-cache -f -v
+  ```
 
 * ghi
   ```sh
