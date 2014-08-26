@@ -20,7 +20,8 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 
 # apt-get
 ```sh
-sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client p7zip p7zip-full npm python gconf-editor tree subversion vim-gnome libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev python3-dev texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texlive-lang-polish imagemagick opera curl rake qnapi htop python-pip
+sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client p7zip p7zip-full npm python gconf-editor tree subversion vim-gnome libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev python3-dev texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texlive-lang-polish imagemagick opera curl rake qnapi
+htop python-pip docker.io
 ```
 
 # npm
@@ -86,6 +87,13 @@ sudo pip install virtualenvwrapper nodeenv
 * ghi
   ```sh
   sudo curl -sL https://raw.githubusercontent.com/stephencelis/ghi/master/ghi > ghi && chmod 755 ghi && mv ghi /usr/local/bin
+  ```
+
+* docker
+  After instalation via apt-get (`docker.io`):
+  ```sh
+  sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
+  sudo sed -i '$acomplete -F _docker docker' /etc/bash_completion.d/docker.io
   ```
 
 * [hub](https://github.com/github/hub)
