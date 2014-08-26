@@ -37,7 +37,7 @@
     foreground_color = "#eee8d5"
     show_titlebar = False
     font = Source Code Pro Medium 10
-    background_color = "#042029"
+    background_color = "#073642"
     scrollback_infinite = True
 [layouts]
   [[default]]
