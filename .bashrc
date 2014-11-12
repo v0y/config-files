@@ -52,7 +52,13 @@ mkdir -p $WORKON_HOME
 source `which virtualenvwrapper.sh`
 
 export TERM=xterm-256color
-export PATH=$PATH:/home/voy/.linuxbrew/bin
+export PATH=$PATH:~/.linuxbrew/bin
+export PATH=$PATH:~/.gitfiles/commands
+
+export HISTCONTROL=ignoredups:erasedups  # no duplicate entries
+export HISTSIZE=100000                   # big big history
+export HISTFILESIZE=100000               # big big history
+shopt -s histappend                      # append to history, don't overwrite it
 
 # load out of repo shit
 if [ -f ~/.out_of_repo_bash_shit ]; then
