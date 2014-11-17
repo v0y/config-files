@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone git://github.com/zsh-users/zsh-completions.git ~/.zsh-completion
-
 mkdir -p ~/.bpython/
 mkdir -p ~/.ssh
 mkdir -p ~/.config
@@ -20,6 +18,7 @@ ln -si `pwd`/.gitconfig ~/.gitconfig
 ln -si `pwd`/.bash_completion ~/.bash_completion
 ln -si `pwd`/.fab_bash_completion ~/.fab_bash_completion
 ln -si `pwd`/.git_bash_completion ~/.git_bash_completion
+ln -si `pwd`/.fab_zsh_completion ~/.fab_zsh_completion
 ln -si `pwd`/.zsh_git_prompt ~/.zsh_git_prompt
 ln -si `pwd`/.zsh_prompt ~/.zsh_prompt
 ln -si `pwd`/.zshrc ~/.zshrc

@@ -30,6 +30,10 @@ fi
 
 fpath=(~/.zsh-completions/src $fpath)
 
+if [ -f ~/.fab_zsh_completion ]; then
+    . ~/.fab_zsh_completion
+fi
+
 # virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=`which python`
 export VIRTUALENVWRAPPER_VIRTUALENV=`which virtualenv`

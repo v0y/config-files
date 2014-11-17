@@ -97,6 +97,11 @@ sudo pip install virtualenvwrapper nodeenv
   sudo apt-get install linux-image-extra-`uname -r`
   ```
 
+* zsh completion
+  ```sh
+  git clone git://github.com/zsh-users/zsh-completions.git ~/.zsh-completion
+  ```
+
 * [hub](https://github.com/github/hub)
 * [PyCharm](https://www.jetbrains.com/pycharm/download/index.html)
 * [vim solarized](https://github.com/altercation/vim-colors-solarized)
