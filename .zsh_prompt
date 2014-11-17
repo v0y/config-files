@@ -1,0 +1,40 @@
+function set_prompt_symbol () {
+   if test $1 -eq 0 ; then
+       PROMPT_SYMBOL="%{$fg[green]%}➤%{$reset_color%}"
+   else
+       PROMPT_SYMBOL="%{$fg[red]%}➤%{$reset_color%}"
+   fi
+}
+
+function set_venv () {
+  if [[ -z "$VIRTUAL_ENV" ]]; then
+      PYTHON_VENV=""
+  else
+      PYTHON_VENV="%{$fg[yellow]%}${VIRTUAL_ENV##*/}%{$reset_color%} "
+  fi
+}
+
+function set_time () {
+  TIME="%{$fg[green]%}%*%{$reset_color%} "
+}
+
+function set_path () {
+  PTH="%{$fg[blue]%}%~%{$reset_color%}"
+}
+
+
+function set_prompt () {
+  set_prompt_symbol $?
+  set_venv
+  set_time
+  set_path
+
+  PROMPT="
+${PYTHON_VENV}${TIME}${PTH}
+${PROMPT_SYMBOL} "
+}
+
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
+PROMPT_COMMAND=set_prompt
+precmd() { eval "$PROMPT_COMMAND" }
