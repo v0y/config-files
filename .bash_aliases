@@ -29,10 +29,9 @@ function g() {
   if [ $# -eq 0 ]; then
     git status
   else
-    hub "$@"
+    git "$@"
   fi
 }
-alias git="hub"
 
 # cd
 alias ..="cd ../"
