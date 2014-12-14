@@ -56,7 +56,7 @@ superuser() { python manage.py createsuperuser --username $1 --email $1@django.p
 alias cfc="coffee -c"
 
 # virtualenvs
-alias mkvirtualenv3="mkvirtualenv --python=/usr/bin/python3.3"
+alias mkvirtualenv3="mkvirtualenv --python=/usr/bin/python3"
 cddev-here() { DIR=`pwd`; cdvirtualenv && cd bin && echo "alias cddev='cd $DIR'" >> postactivate && cat postactivate; };
 
 # vagrant
