@@ -9,7 +9,7 @@
   title_transmit_bg_color = "#859900"
   title_receive_fg_color = "#586e75"
   inactive_color_offset = 1.0
-  title_inactive_bg_color = "#f6ebbc"
+  title_inactive_bg_color = "#fdf6e3"
 [keybindings]
   broadcast_all = <Super>KP_3
   broadcast_group = <Super>KP_2
@@ -24,8 +24,10 @@
     cursor_color = "#586e75"
     foreground_color = "#586e75"
     show_titlebar = False
+    antialias = False
     font = Source Code Pro Medium 12
     background_color = "#fdf6e3"
+    allow_bold = False
     scrollback_infinite = True
   [[solarized-dark]]
     scrollbar_position = hidden
