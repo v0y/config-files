@@ -44,6 +44,14 @@ alias pipreq="pip install -r requirements.txt"
 
 # python
 alias py="python"
+bpython() {
+    if test -n "$VIRTUAL_ENV"; then
+        PYTHONPATH="$(python -c 'import sys; print ":".join(sys.path)')" \
+        command bpython "$@"
+    else
+        command bpython "$@"
+    fi
+}
 alias bpy="bpython"
 
 # django
