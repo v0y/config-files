@@ -12,3 +12,4 @@ backup
 build
 .fab_completion
 .sass-cache
+*.rdb
