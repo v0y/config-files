@@ -24,10 +24,8 @@
     cursor_color = "#586e75"
     foreground_color = "#586e75"
     show_titlebar = False
-    antialias = False
     font = Source Code Pro Medium 12
     background_color = "#fdf6e3"
-    allow_bold = False
     scrollback_infinite = True
   [[solarized-dark]]
     scrollbar_position = hidden
@@ -42,7 +40,7 @@
     font = Source Code Pro Medium 10
     background_color = "#073642"
     scrollback_infinite = True
-  [[solarized-light-big]]
+  [[solarized-dark-big]]
     scrollbar_position = hidden
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     background_image = None
@@ -54,19 +52,6 @@
     font = Source Code Pro Medium 16
     background_color = "#fdf6e3"
     scrollback_infinite = True
-  [[solarized-dark-big]]
-    scrollbar_position = hidden
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    background_darkness = 1.08
-    cursor_shape = ibeam
-    use_system_font = False
-    cursor_color = "#eee8d6"
-    foreground_color = "#eee8d5"
-    show_titlebar = False
-    font = Source Code Pro Medium 16
-    background_color = "#073642"
-
 [layouts]
   [[default]]
     [[[child1]]]
