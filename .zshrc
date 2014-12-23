@@ -34,6 +34,11 @@ if [ -f ~/.fab_zsh_completion ]; then
     . ~/.fab_zsh_completion
 fi
 
+# INFINALITY FONT RENDERING CONFIG
+if [ -f /etc/infinality-settings.sh ]; then
+    . /etc/infinality-settings.sh
+fi
+
 # virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=`which python`
 export VIRTUALENVWRAPPER_VIRTUALENV=`which virtualenv`
