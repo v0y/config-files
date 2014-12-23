@@ -9,6 +9,12 @@ deb http://repository.spotify.com stable non-free
 " > /etc/apt/sources.list
 ```
 
+```sh
+sudo add-apt-repository ppa:no1wantdthisname/ppa
+sudo add-apt-repository ppa:no1wantdthisname/openjdk-fontfix
+sudo apt-get update
+```
+
 # get keys
 
 ```sh
@@ -20,7 +26,8 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 
 # apt-get
 ```sh
-sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client p7zip p7zip-full npm python gconf-editor tree subversion vim-gnome libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev python3-dev texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texlive-lang-polish imagemagick opera curl rake qnapi htop python-pip docker.io apparmor zsh
+sudo apt-get install mysql-server terminator vim git transmission skype vlc gimp apcalc bpython chromium-browser firefox wine virtualbox libreoffice hipchat spotify-client p7zip p7zip-full npm python gconf-editor tree subversion vim-gnome libxml2-dev libxslt-dev g++ make checkinstall python-virtualenv libmysqlclient-dev python-mysqldb python-dev python3-dev texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texlive-lang-polish imagemagick opera curl rake qnapi
+htop python-pip docker.io apparmor zsh fontconfig-infinality openjdk-7-jdk
 ```
 
 # npm
@@ -112,6 +119,13 @@ sudo pip install virtualenvwrapper nodeenv
 * [vim solarized](https://github.com/altercation/vim-colors-solarized)
 * [Vagrant](http://downloads.vagrantup.com/)
 * [xflux](http://justgetflux.com/linux.html)
+
+* infinality config
+  ```sh
+  sudo bash /etc/fonts/infinality/infctl.sh setstyle linux
+  sudo mv /etc/profile.d/infinality-settings.sh /etc/infinality-settings.sh
+  sudo chmod a+rx /etc/infinality-settings.sh
+  ```
 
 ## Opera plugins
 
