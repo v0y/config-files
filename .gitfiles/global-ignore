@@ -13,3 +13,5 @@ build
 .fab_completion
 .sass-cache
 *.rdb
+*.egg-info
+dist

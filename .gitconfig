@@ -137,5 +137,6 @@
 
 [pull]
     rebase = true
+
 [ghi]
 	token = e5a36eb0d20a61b7d70ef53d3a8879a5c0786452
