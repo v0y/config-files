@@ -55,3 +55,6 @@ export PATH=$PATH:~/.gitfiles/commands
 bindkey ';5D' emacs-backward-word
 bindkey ';5C' emacs-forward-word
 export WORDCHARS=''
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
