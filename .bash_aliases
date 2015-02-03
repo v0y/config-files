@@ -54,6 +54,7 @@ bpython() {
     fi
 }
 alias bpy="bpython"
+alias nt="nosetests"
 
 # django
 alias mpy="python manage.py"
