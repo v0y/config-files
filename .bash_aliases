@@ -13,6 +13,7 @@ initd() { sudo /etc/init.d/$1 $2;};
 alias cinnamon_fix="export DISPLAY=:0; cinnamon &"
 alias fn_fix="echo 2 > /sys/module/hid_apple/parameters/fnmode"
 javar() { java -Xmx$1M -Xms$1M -jar $2; };
+top-ten() { print -l -- ${(o)history%% *} | uniq -c | sort -nr | head -n 10; };
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
