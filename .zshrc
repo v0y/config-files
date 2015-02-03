@@ -44,6 +44,7 @@ fi
 
 # antigen
 antigen bundle zsh-users/zsh-completions src
+antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 
 # virtualenvwrapper
