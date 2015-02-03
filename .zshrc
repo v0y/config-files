@@ -28,16 +28,23 @@ if [ -f ~/.zsh_prompt ]; then
     . ~/.zsh_prompt
 fi
 
-fpath=(~/.zsh-completions/src $fpath)
-
 if [ -f ~/.fab_zsh_completion ]; then
     . ~/.fab_zsh_completion
+fi
+
+# antigen
+if [ -f ~/.antigen.zsh ]; then
+    . ~/.antigen.zsh
 fi
 
 # INFINALITY FONT RENDERING CONFIG
 if [ -f /etc/infinality-settings.sh ]; then
     . /etc/infinality-settings.sh
 fi
+
+# antigen
+antigen bundle zsh-users/zsh-completions src
+antigen apply
 
 # virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=`which python`

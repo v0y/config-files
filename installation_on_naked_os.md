@@ -72,6 +72,11 @@ sudo pip install virtualenvwrapper nodeenv
   git clone git://github.com/plasticboy/vim-markdown.git
   ```
 
+* antigen
+  ```sh
+  curl -L https://raw.githubusercontent.com/zsh-users/antigen/master/antigen.zsh > ~/.antigen.zsh
+  ```
+
 * source code pro font
   ```sh
   wget http://downloads.sourceforge.net/project/sourcecodepro.adobe/SourceCodePro_FontsOnly-1.017.zip
