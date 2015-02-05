@@ -55,6 +55,7 @@ bpython() {
 }
 alias bpy="bpython"
 alias nt="nosetests"
+alias pyc="find . -name \"*.pyc\" -delete"
 
 # django
 alias mpy="python manage.py"
