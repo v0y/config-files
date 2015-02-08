@@ -56,8 +56,12 @@ mkdir -p $WORKON_HOME
 source `which virtualenvwrapper.sh`
 
 export TERM=xterm-256color
-export PATH=$PATH:~/.linuxbrew/bin
 export PATH=$PATH:~/.gitfiles/commands
+
+# linuxbrew
+export PATH=~/.linuxbrew/bin:$PATH
+export MANPATH=~/.linuxbrew/share/man:$MANPATH
+export INFOPATH=~/.linuxbrew/share/info:$INFOPATH
 
 # ctrl + arrows
 bindkey ';5D' emacs-backward-word
