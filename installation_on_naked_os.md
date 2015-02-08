@@ -93,7 +93,7 @@ sudo pip install virtualenvwrapper nodeenv
 
 * ghi
   ```sh
-  sudo curl -sL https://raw.githubusercontent.com/stephencelis/ghi/master/ghi > ghi && chmod 755 ghi && mv ghi /usr/local/bin
+  sudo curl -sL https://raw.githubusercontent.com/stephencelis/ghi/master/ghi > ghi && chmod 755 ghi && sudo mv ghi /usr/local/bin
   ```
 
 * docker
