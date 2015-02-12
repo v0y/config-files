@@ -1,9 +1,10 @@
 #!/bin/bash
 
-mkdir -p ~/.bpython/
+mkdir -p ~/.bpython
 mkdir -p ~/.ssh
 mkdir -p ~/.config
 mkdir -p ~/.config/terminator
+mkdir -p ~/.gitfiles
 
 ln -si `pwd`/.bash_aliases ~/.bash_aliases
 ln -si `pwd`/.bash_prompt ~/.bash_prompt
