@@ -101,19 +101,6 @@
 
     # tag
     t = tag
-    # tag for deploy
-    td = "!f() { git tag $1-`date +%Y%m%d`-$2; }; f"
-    # bindweed
-    tdws = "!f() { git tag $1-`date +%Y%m%d`-wsumie; }; f"
-    tdbw = "!f() { git tag $1-`date +%Y%m%d`-bindweed; }; f"
-    tds1bw = "!f() { git tag $1-`date +%Y%m%d`-seed1.bindweed; }; f"
-    # cas
-    tdkws = "!f() { git tag $1-`date +%Y%m%d`-konto.wsumie.pl; }; f"
-    tdkbw = "!f() { git tag $1-`date +%Y%m%d`-konto.bindweed.pl; }; f" 
-    # snowdropy
-    tdwp = "!f() { git tag $1-`date +%Y%m%d`-wpolityce; }; f"
-    tdwn = "!f() { git tag $1-`date +%Y%m%d`-wnas; }; f"
-    tdwg = "!f() { git tag $1-`date +%Y%m%d`-wgospodarce; }; f"
 
     # hub
     branch-ticket-prefix = !git branch | sed -n 's/* \\([0-9]*\\).*/\\1/p'
