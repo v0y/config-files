@@ -25,3 +25,4 @@ ln -si `pwd`/.zsh_prompt ~/.zsh_prompt
 ln -si `pwd`/.zshrc ~/.zshrc
 
 sudo ln -si `pwd`/etc/hosts /etc/hosts
+sudo ln -si `pwd`/etc/watchdog.conf /etc/watchdog.conf
