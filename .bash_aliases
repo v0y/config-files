@@ -1,5 +1,6 @@
 # standard
 alias s="sudo"
+alias ls="ls --color=auto"
 alias lg="ls | grep"
 alias llg="ls -lh | grep"
 alias psgrep="ps -aux | grep"

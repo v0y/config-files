@@ -32,6 +32,10 @@ if [ -f ~/.fab_zsh_completion ]; then
     . ~/.fab_zsh_completion
 fi
 
+if [ -f ~/.dir_colors/dircolors.ansi-universal ]; then
+    eval $(dircolors ~/.dir_colors/dircolors.ansi-universal)
+fi
+
 # antigen
 if [ -f ~/.antigen.zsh ]; then
     . ~/.antigen.zsh
