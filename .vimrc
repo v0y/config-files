@@ -160,9 +160,10 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-" Linebreak on 500 characters
+" Linebreak on 100 characters
 set lbr
-set tw=500
+set tw=100
+set colorcolumn=81
 
 set nowrap
 
