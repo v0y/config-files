@@ -166,8 +166,8 @@ set tw=0
 set colorcolumn=81
 
 set wrap
+set nofoldenable
 
-set ai "Auto indent
 set si "Smart indent
 
 " Return to last edit position when opening files (You want this!)
