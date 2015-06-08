@@ -59,6 +59,8 @@ bpython() {
     fi
 }
 alias bpy="bpython"
+alias ipy="ipython"
+alias ptp="ptpython"
 alias nt="nosetests"
 alias pyc="find . -name \"*.pyc\" -delete"
 

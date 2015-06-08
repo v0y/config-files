@@ -38,7 +38,7 @@ easy_install -U Sphinx
 
 # pip
 ```sh
-sudo pip install virtualenvwrapper nodeenv
+sudo pip install virtualenvwrapper nodeenv ptpython
 ```
 
 # Other
