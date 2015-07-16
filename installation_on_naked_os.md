@@ -97,6 +97,13 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   fc-cache -f -v
   ```
 
+* monaco font
+
+  ```sh
+  curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
+  fc-cache -f -v
+  ```
+
 * ghi
   ```sh
   sudo curl -sL https://raw.githubusercontent.com/stephencelis/ghi/master/ghi > ghi && chmod 755 ghi && sudo mv ghi /usr/local/bin
