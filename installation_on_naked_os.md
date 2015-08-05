@@ -81,11 +81,9 @@ sudo pip install virtualenvwrapper nodeenv ptpython
 
 * source code pro font
   ```sh
-  wget https://github.com/adobe-fonts/source-code-pro/archive/1.017R.zip
-  unzip 1.017R.zip
-  mkdir -p ~/.fonts
-  cp source-code-pro-1.017R/OTF/*.otf ~/.fonts/
-  fc-cache -f -v
+  [ -d /usr/share/fonts/opentype ] || sudo mkdir /usr/share/fonts/opentype
+  sudo git clone https://github.com/adobe-fonts/source-code-pro.git /usr/share/fonts/opentype/scp
+  sudo fc-cache -f -v
   ```
   
 * input font
