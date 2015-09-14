@@ -74,3 +74,6 @@ export WORDCHARS=''
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# ansible
+export ANSIBLE_NOCOWS=1
