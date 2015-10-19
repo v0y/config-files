@@ -62,7 +62,7 @@
     # reset
     hard = reset --hard
     hardh = "!f() { git reset --hard HEAD@\\{$1\\}; }; f"
-    hardr = "git reset --hard origin/$1 && git clean -f -d"
+    hardr = "!f() { git reset --hard origin/$1 && git clean -f -d; }; f"
 
     # stash
     sth = stash
