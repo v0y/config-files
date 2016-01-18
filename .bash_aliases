@@ -9,6 +9,7 @@ alias ll="ls -lh"
 alias la="ls -alh"
 alias gr="grep"
 initd() { sudo /etc/init.d/$1 $2;};
+alias untar="tar -zxvf"
 
 # special
 alias cinnamon_fix="export DISPLAY=:0; cinnamon &"
