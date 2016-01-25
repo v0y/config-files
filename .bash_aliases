@@ -16,6 +16,7 @@ alias cinnamon_fix="export DISPLAY=:0; cinnamon &"
 alias fn_fix="echo 2 > /sys/module/hid_apple/parameters/fnmode"
 javar() { java -Xmx$1M -Xms$1M -jar $2; };
 top-ten() { print -l -- ${(o)history%% *} | uniq -c | sort -nr | head -n 10; };
+alias pg="ping google.com"
 
 # apps
 alias xflux-on="xflux -l 52 -g 21"
