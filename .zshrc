@@ -46,6 +46,8 @@ if [ -f /etc/infinality-settings.sh ]; then
     . /etc/infinality-settings.sh
 fi
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # antigen
 antigen bundle zsh-users/zsh-completions src
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -77,3 +79,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # ansible
 export ANSIBLE_NOCOWS=1
+

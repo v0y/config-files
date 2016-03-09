@@ -64,3 +64,5 @@ shopt -s histappend                      # append to history, don't overwrite it
 if [ -f ~/.out_of_repo_bash_shit ]; then
     . ~/.out_of_repo_bash_shit
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
