@@ -19,6 +19,7 @@
     rb = rebase
     rbim = rebase -i --autosquash master
     rbm = rebase -p master
+    rbd = rebase -p devel
     rbi = rebase -i --autosquash
     rbih = "!f() { git rebase -i --autosquash HEAD~$1; }; f"
     arbc = "!f() { git add .; git rebase --continue; }; f"
