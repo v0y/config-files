@@ -80,3 +80,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # ansible
 export ANSIBLE_NOCOWS=1
 
+export IBUS_ENABLE_SYNC_MODE=1
