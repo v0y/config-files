@@ -114,7 +114,7 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   ```sh
   mkdir -p ~/.vim/autoload ~/.vim/bundle; \
   curl -Sso ~/.vim/autoload/pathogen.vim \
-      https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+      https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
   ```
 
 * vim plugins via pathogen
