@@ -64,7 +64,6 @@ texlive-pictures \
 texlive-latex-extra \
 texlive-lang-polish \
 imagemagick \
-opera \
 curl \
 rake \
 qnapi \
@@ -139,7 +138,7 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   cp source-code-pro-1.017R/OTF/*.otf ~/.fonts/
   fc-cache -f -v
   ```
-  
+
 * input font
 
   [download page](http://input.fontbureau.com/download/)
@@ -183,4 +182,3 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   sudo mv /etc/profile.d/infinality-settings.sh /etc/infinality-settings.sh
   sudo chmod a+rx /etc/infinality-settings.sh
   ```
-
