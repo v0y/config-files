@@ -57,12 +57,6 @@ libmysqlclient-dev \
 python-mysqldb \
 python-dev \
 python3-dev \
-texlive-fonts-recommended \
-latex-beamer \
-texpower \
-texlive-pictures \
-texlive-latex-extra \
-texlive-lang-polish \
 imagemagick \
 curl \
 rake \
@@ -72,8 +66,7 @@ python-pip \
 apparmor \
 zsh \
 fontconfig-infinality \
-openjdk-7-jdk \
-postgresql-9.4 \
+postgresql-9.5 \
 watchdog
 ```
 
@@ -129,6 +122,8 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   ```sh
   curl -L https://raw.githubusercontent.com/zsh-users/antigen/master/antigen.zsh > ~/.antigen.zsh
   ```
+
+* [java](https://www.java.com/pl/download/linux_manual.jsp)
 
 * source code pro font
   ```sh
