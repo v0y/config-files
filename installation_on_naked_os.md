@@ -95,18 +95,14 @@ sudo pip install virtualenvwrapper nodeenv ptpython
 
 * Node.js
   ```sh
-  wget -N http://nodejs.org/dist/node-latest.tar.gz
-  tar xzvf node-latest.tar.gz && cd node-v*
-  ./configure
-  checkinstall #(remove the "v" in front of the version number in the dialog)
-  sudo dpkg -i node_*
+  curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+  sudo apt-get install -y nodejs
   ```
 
 * pathogen
   ```sh
-  mkdir -p ~/.vim/autoload ~/.vim/bundle; \
-  curl -Sso ~/.vim/autoload/pathogen.vim \
-      https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+  mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+  curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
   ```
 
 * vim plugins via pathogen
@@ -114,7 +110,6 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   mkdir -p ~/.vim/bundle &&     cd ~/.vim/bundle && \
   git clone git://github.com/scrooloose/nerdtree.git && \
   git clone git://github.com/altercation/vim-colors-solarized.git && \
-  git clone git://git.code.sf.net/p/vim-latex/vim-latex vim-latex-vim-latex && \
   git clone git://github.com/plasticboy/vim-markdown.git
   ```
 
