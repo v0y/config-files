@@ -112,10 +112,10 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   git clone git://github.com/altercation/vim-colors-solarized.git && \
   git clone git://github.com/plasticboy/vim-markdown.git
   ```
-
+  
 * antigen
   ```sh
-  curl -L https://raw.githubusercontent.com/zsh-users/antigen/master/antigen.zsh > ~/.antigen.zsh
+  curl https://cdn.rawgit.com/zsh-users/antigen/v1.1.4/bin/antigen.zsh > ~/.antigen.zsh
   ```
 
 * [java](https://www.java.com/pl/download/linux_manual.jsp)
@@ -171,4 +171,10 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   sudo bash /etc/fonts/infinality/infctl.sh setstyle linux
   sudo mv /etc/profile.d/infinality-settings.sh /etc/infinality-settings.sh
   sudo chmod a+rx /etc/infinality-settings.sh
+  ```
+
+* sudo without password
+  ```sh
+  sudo visudo
+  <username> ALL=(ALL) NOPASSWD: ALL  # at the end
   ```
