@@ -1,98 +1,98 @@
 [global_config]
-  handle_size = 5
-  enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, MavenPluginURLHandler, LaunchpadBugURLHandler
   always_split_with_profile = True
-  title_transmit_fg_color = "#586e75"
-  title_inactive_fg_color = "#586e75"
-  suppress_multiple_term_dialog = True
-  title_receive_bg_color = "#268bd2"
-  title_transmit_bg_color = "#859900"
-  title_receive_fg_color = "#586e75"
+  enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, MavenPluginURLHandler, LaunchpadBugURLHandler
+  handle_size = 5
   inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
   title_inactive_bg_color = "#fdf6e3"
+  title_inactive_fg_color = "#586e75"
+  title_receive_bg_color = "#268bd2"
+  title_receive_fg_color = "#586e75"
+  title_transmit_bg_color = "#859900"
+  title_transmit_fg_color = "#586e75"
 [keybindings]
   broadcast_all = <Super>KP_3
   broadcast_group = <Super>KP_2
   broadcast_off = <Super>KP_1
-[profiles]
-  [[solarized-dark]]
-    scrollbar_position = hidden
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    background_darkness = 1.08
-    cursor_shape = ibeam
-    use_system_font = False
-    cursor_color = "#eee8d6"
-    foreground_color = "#fdf6e3"
-    show_titlebar = False
-    font = Source Code Pro Medium 12
-    background_color = "#073642"
-    scrollback_infinite = True
-  [[solarized-dark-small]]
-    scrollbar_position = hidden
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    cursor_shape = ibeam
-    use_system_font = False
-    cursor_color = "#eee8d6"
-    foreground_color = "#fdf6e3"
-    show_titlebar = False
-    font = Source Code Pro Medium 9
-    background_color = "#073642"
-    scrollback_infinite = True
-  [[solarized-light-small]]
-    scrollbar_position = hidden
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    cursor_shape = ibeam
-    use_system_font = False
-    cursor_color = "#586e75"
-    foreground_color = "#586e75"
-    show_titlebar = False
-    font = Source Code Pro Medium 9
-    background_color = "#fdf6e3"
-    scrollback_infinite = True
-  [[default]]
-    scrollbar_position = hidden
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    cursor_shape = ibeam
-    use_system_font = False
-    cursor_color = "#586e75"
-    foreground_color = "#586e75"
-    show_titlebar = False
-    font = Source Code Pro Medium 12
-    background_color = "#fdf6e3"
-    scrollback_infinite = True
-  [[solarized-light-big]]
-    scrollbar_position = hidden
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    cursor_shape = ibeam
-    use_system_font = False
-    foreground_color = "#586e75"
-    show_titlebar = False
-    font = Source Code Pro Medium 16
-    background_color = "#fdf6e3"
-  [[solarized-dark-big]]
-    scrollbar_position = hidden
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_image = None
-    cursor_shape = ibeam
-    use_system_font = False
-    cursor_color = "#eee8d6"
-    foreground_color = "#fdf6e3"
-    show_titlebar = False
-    font = Source Code Pro Medium 16
-    background_color = "#073642"
-    scrollback_infinite = True
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
       profile = default
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_color = "#fdf6e3"
+    background_image = None
+    cursor_color = "#586e75"
+    cursor_shape = ibeam
+    font = Source Code Pro Medium 12
+    foreground_color = "#586e75"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[solarized-dark]]
+    background_color = "#073642"
+    background_darkness = 1.08
+    background_image = None
+    cursor_color = "#eee8d6"
+    cursor_shape = ibeam
+    font = Source Code Pro Medium 12
+    foreground_color = "#fdf6e3"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[solarized-dark-big]]
+    background_color = "#073642"
+    background_image = None
+    cursor_color = "#eee8d6"
+    cursor_shape = ibeam
+    font = Source Code Pro Medium 16
+    foreground_color = "#fdf6e3"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[solarized-dark-small]]
+    background_color = "#073642"
+    background_image = None
+    cursor_color = "#eee8d6"
+    cursor_shape = ibeam
+    font = Source Code Pro Medium 9
+    foreground_color = "#fdf6e3"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[solarized-light-big]]
+    background_color = "#fdf6e3"
+    background_image = None
+    cursor_shape = ibeam
+    font = Source Code Pro Medium 16
+    foreground_color = "#586e75"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[solarized-light-small]]
+    background_color = "#fdf6e3"
+    background_image = None
+    cursor_color = "#586e75"
+    cursor_shape = ibeam
+    font = Source Code Pro Medium 9
+    foreground_color = "#586e75"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
