@@ -46,6 +46,11 @@ if [ -f /etc/infinality-settings.sh ]; then
     . /etc/infinality-settings.sh
 fi
 
+# swap esc and capslock
+if [ -f ~/.speedswapper ]; then
+    xmodmap ~/.speedswapper
+fi
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # antigen
