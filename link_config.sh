@@ -27,3 +27,4 @@ ln -si `pwd`/.dir_colors ~/.dir_colors
 
 sudo ln -si `pwd`/etc/hosts /etc/hosts
 sudo ln -si `pwd`/etc/watchdog.conf /etc/watchdog.conf
+sudo ln -si `pwd`/bin/sp /usr/local/bin/sp
