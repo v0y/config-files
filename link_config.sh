@@ -4,6 +4,7 @@ mkdir -p ~/.bpython
 mkdir -p ~/.ssh
 mkdir -p ~/.config
 mkdir -p ~/.config/terminator
+mkdir -p ~/.config/openbox
 mkdir -p ~/.gitfiles
 
 ln -si `pwd`/.bash_aliases ~/.bash_aliases
@@ -15,6 +16,7 @@ ln -si `pwd`/.ssh/config ~/.ssh/config
 ln -si `pwd`/.vimrc ~/.vimrc
 ln -si `pwd`/.q3a/q3ut4/config.cfg ~/.q3a/q3ut4/config.cfg
 ln -si `pwd`/.config/terminator/config ~/.config/terminator/config
+ln -si `pwd`/.config/openbox/lubuntu-rc.xml ~/.config/openbox/lubuntu-rc.xml
 ln -si `pwd`/.gitconfig ~/.gitconfig
 ln -si `pwd`/.bash_completion ~/.bash_completion
 ln -si `pwd`/.fab_bash_completion ~/.fab_bash_completion
