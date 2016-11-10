@@ -23,6 +23,7 @@ alias xflux-on="xflux -l 52 -g 21"
 alias xflux-off="killall xflux"
 alias d="sudo docker"
 alias scratch=scratch-text-editor
+alias http="http -s solarized"
 
 # config
 alias alias_edit="vim ~/.bash_aliases"
