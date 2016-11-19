@@ -26,6 +26,7 @@ ln -si `pwd`/.zsh_git_prompt ~/.zsh_git_prompt
 ln -si `pwd`/.zsh_prompt ~/.zsh_prompt
 ln -si `pwd`/.zshrc ~/.zshrc
 ln -si `pwd`/.dir_colors ~/.dir_colors
+ln -si `pwd`/.xmodmap_swap_caps_esc.sh ~/.xmodmap_swap_caps_esc.sh
 
 sudo ln -si `pwd`/etc/hosts /etc/hosts
 sudo ln -si `pwd`/etc/watchdog.conf /etc/watchdog.conf
