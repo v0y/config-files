@@ -112,7 +112,7 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   git clone git://github.com/altercation/vim-colors-solarized.git && \
   git clone git://github.com/plasticboy/vim-markdown.git
   ```
-  
+
 * antigen
   ```sh
   curl https://cdn.rawgit.com/zsh-users/antigen/v1.1.4/bin/antigen.zsh > ~/.antigen.zsh
@@ -149,6 +149,8 @@ sudo pip install virtualenvwrapper nodeenv ptpython
   ```sh
   sudo curl -sL https://raw.githubusercontent.com/stephencelis/ghi/master/ghi > ghi && chmod 755 ghi && sudo mv ghi /usr/local/bin
   ```
+
+* [nvm](https://github.com/creationix/nvm)
 
 * set zsh as default shell
   ```sh

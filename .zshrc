@@ -41,6 +41,12 @@ if [ -f ~/.antigen.zsh ]; then
     . ~/.antigen.zsh
 fi
 
+# nvm
+export NVM_DIR="~/.nvm"
+if [ -f ~/.nvm/nvm.sh ]; then
+    . ~/.nvm/nvm.sh
+fi
+
 # INFINALITY FONT RENDERING CONFIG
 if [ -f /etc/infinality-settings.sh ]; then
     . /etc/infinality-settings.sh
@@ -82,3 +88,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export ANSIBLE_NOCOWS=1
 
 export IBUS_ENABLE_SYNC_MODE=1
+
