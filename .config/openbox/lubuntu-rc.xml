@@ -466,6 +466,21 @@
         <command>sp prev</command>
       </action>
     </keybind>
+    <keybind key="Print">
+      <action name="Execute">
+        <command>gnome-screenshot -b</command>
+      </action>
+    </keybind>
+    <keybind key="S-Print">
+      <action name="Execute">
+        <command>gnome-screenshot -b -w</command>
+      </action>
+    </keybind>
+    <keybind key="C-Print">
+      <action name="Execute">
+        <command>gnome-screenshot -b -a</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>
