@@ -76,9 +76,10 @@ export PATH=~/.linuxbrew/bin:$PATH
 export MANPATH=~/.linuxbrew/share/man:$MANPATH
 export INFOPATH=~/.linuxbrew/share/info:$INFOPATH
 
-# ctrl + arrows
+# ctrl + arrows/del
 bindkey ';5D' emacs-backward-word
 bindkey ';5C' emacs-forward-word
+bindkey -M emacs '^[[3;5~' kill-word
 export WORDCHARS=''
 
 ### Added by the Heroku Toolbelt
