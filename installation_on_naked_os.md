@@ -67,7 +67,8 @@ apparmor \
 zsh \
 fontconfig-infinality \
 postgresql-9.5 \
-watchdog
+watchdog \
+bmon
 ```
 
 # npm

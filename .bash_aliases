@@ -17,6 +17,8 @@ alias fn_fix="echo 2 > /sys/module/hid_apple/parameters/fnmode"
 javar() { java -Xmx$1M -Xms$1M -jar $2; };
 top-ten() { print -l -- ${(o)history%% *} | uniq -c | sort -nr | head -n 10; };
 alias pg="ping google.com"
+alias xrandr-laptop="xrandr --output LVDS1 --auto --output HDMI2 --off"
+alias xrandr-hdmi2="xrandr --output LVDS1 --off --output HDMI2 --auto"
 
 # apps
 alias xflux-on="xflux -l 52 -g 21"
