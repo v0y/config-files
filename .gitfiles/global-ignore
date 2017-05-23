@@ -1,5 +1,5 @@
 .externalToolBuilders
-.idea
+*.idea
 .project
 .pydevproject
 .settings
