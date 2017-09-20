@@ -23,7 +23,6 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 # apt-get
 ```sh
 sudo apt-get install \
-mysql-server \
 terminator \
 vim \
 git \
@@ -66,7 +65,6 @@ python-pip \
 apparmor \
 zsh \
 fontconfig-infinality \
-postgresql-9.5 \
 watchdog \
 bmon
 ```
