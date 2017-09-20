@@ -348,9 +348,11 @@
       </action>
     </keybind>
     <!-- Keybindings to toggle fullscreen -->
+    <!--
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
     </keybind>
+    -->
     <!-- Launch task manager on Ctrl + Alt + Del-->
     <keybind key="C-A-Delete">
       <action name="Execute">
