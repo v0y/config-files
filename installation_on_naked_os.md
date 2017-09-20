@@ -66,7 +66,8 @@ apparmor \
 zsh \
 fontconfig-infinality \
 watchdog \
-bmon
+bmon \
+linuxbrew-wrapper
 ```
 
 # npm
